@@ -11,13 +11,19 @@ public class loginpage extends baseuse {
     private static  String loginbutton="//input[@value='Login']";
 
     public static void setusername(String txtusername) {
-        Actionclasses.entertxtvalue(username,txtusername);
+    Actionclasses.enteringValue(username,txtusername);
     }
     public static void setPassword(String txtpassword) {
-       Actionclasses.entertxtvalue(password,txtpassword);
+        Actionclasses.enteringValue(password,txtpassword);
     }
     public static void setLoginbutton() {
-       Actionclasses.clicking(loginbutton);
+        Actionclasses.clicking(loginbutton);
+    }
+    public static void setsignout() {
+        Actionclasses.clicking(loginbutton);
+    }
+    public static void sethomepage() {
+        Actionclasses.clicking(loginbutton);
     }
 
 }
