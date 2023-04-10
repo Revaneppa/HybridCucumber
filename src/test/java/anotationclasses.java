@@ -9,10 +9,8 @@ public class anotationclasses {
 
         @Before
         public void setup(){
-
             initmethod();
         }
-
         @After
         public void close() {
          finalmethod();
